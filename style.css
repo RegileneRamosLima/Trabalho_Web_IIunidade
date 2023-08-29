@@ -352,6 +352,15 @@ footer{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    position: relative;
+}
+
+footer .direitos{
+    color: #fff;
+    position: absolute;
+    left: 3px;
+    bottom: 3px;
+    font-size: 0.8em;
 }
 
 .bloco-footer{
