@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: 'California';
-    src: url(fonts/California/The\ California.ttf);
+    src: url(../fonts/California/The\ California.ttf);
 }
 
 *{
@@ -63,13 +63,13 @@ header.rolagem .navegacao a:hover::after{
 }
 
 header.rolagem .btn_login{
-    color: red;
+    color: #08A321;
     border: 2px solid #08A321;
     transition: 0.3s ease-in-out;
 }
 
 header.rolagem .btn_login:hover{
-    color: #08A321;
+    color: #fff;
     background: #08A321;
 }
 
@@ -140,7 +140,7 @@ header.rolagem .btn_login:hover{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url(img/background.jpeg) no-repeat; 
+    background: url(../img/background.jpeg) no-repeat; 
     background-size: cover;
     background-position: center;
     position: relative;
@@ -257,7 +257,7 @@ header.rolagem .btn_login:hover{
     margin-right: 20px;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
-    background: url(img/pratovegano.jpeg) no-repeat; 
+    background: url(../img/pratovegano.jpeg) no-repeat; 
     background-size: cover;
     background-position: center;
 }
@@ -269,7 +269,7 @@ header.rolagem .btn_login:hover{
     margin-bottom: 120px;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
-    background: url(img/pratovegano2.jpeg) no-repeat; 
+    background: url(../img/pratovegano2.jpeg) no-repeat; 
     background-size: cover;
     background-position: center;
 }
@@ -320,7 +320,7 @@ header.rolagem .btn_login:hover{
 .card-venda .img-card{
     width: 100%;
     height: 50%;
-    background-image: url(img/pratovegano.jpeg);
+    background-image: url(../img/pratovegano.jpeg);
     background-size: cover;
     background-position: center;
     border-radius: 7px 7px 0 0;
