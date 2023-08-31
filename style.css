@@ -63,7 +63,7 @@ header.rolagem .navegacao a:hover::after{
 }
 
 header.rolagem .btn_login{
-    color: #fff;
+    color: red;
     border: 2px solid #08A321;
     transition: 0.3s ease-in-out;
 }
